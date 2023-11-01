@@ -1,0 +1,4 @@
+AWS Cloudtrail Ingestion Into Snowflake
+
+
+This quickstart requires a warehouse to perform computation and ingestion. We recommend creating a separate warehouse for security related analytics if one does not exist. The following will create a medium sized single cluster warehouse that suspends after 1 minute of inactivity. For production workloads a larger warehouse will likely be required.
