@@ -37,6 +37,7 @@ jobs:
           echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
           echo $SF_ACCOUNT
           echo $SF_ROLE
+          echo "$SF_ROLE"
           python --version
           echo "Step 1: Installing schemachange"
           pip install schemachange
